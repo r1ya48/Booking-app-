@@ -6,6 +6,7 @@ import MainPage from './pages/main_page';
 import FormPage from './pages/main_form';
 import ConfirmationPage from './pages/main_confirm';
 import MovieCatalog from './components/MovieCatalog';
+import CreateMovie from './components/createmovie';
 import './styles/main.css';
 
 const App = () => {
