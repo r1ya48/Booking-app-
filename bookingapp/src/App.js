@@ -14,6 +14,7 @@ const App = () => {
         <Router>
             <NavBar />
             <SideContainer />
+            <CreateMovie />
             <div className="content">
                 <Routes>
                     <Route path="/movies" element={<MovieCatalog />} />
